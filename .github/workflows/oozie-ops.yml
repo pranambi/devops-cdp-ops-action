@@ -1,5 +1,5 @@
 name: Oozie Operations
-run-name: "Oozie Ops | ${{ github.event.inputs.environment }} | ${{ github.event.inputs.operation }} | workflow"
+run-name: "Oozie Ops | ${{ github.event.inputs.environment }} | ${{ github.event.inputs.operation }} | {{ github.event.inputs.job_id }}"
 
 on:
   workflow_dispatch:
